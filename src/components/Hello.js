@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Hello() {
+function Hello(props) {
   return (
     <div>
-      <h1>Hello React JS</h1>
+      <h1>Hello {props.msg}, you were developed by {props.madeBy}</h1>
     </div>
   )
 }
