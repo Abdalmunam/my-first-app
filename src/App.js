@@ -1,6 +1,7 @@
 import './App.css'
 import Hello from './components/Hello'
 import Hellow from './components/Hellow'
+import {ArrowHello} from './components/ArrowHello'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hellow />
       <Hellow msg="React JS" />
       <Hellow msg="ASP.Net" madeBy="Microsoft" />
+      <ArrowHello />
     </div>
   )
 }
