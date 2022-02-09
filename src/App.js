@@ -15,6 +15,7 @@ function App() {
       <ArrowHello />
       <Hello>
         <p>This paragraph is a child of Hello component</p>
+        <button>A child Button</button>
       </Hello>
     </div>
   )
