@@ -11,7 +11,7 @@ export class Counter extends Component {
     increaseCount(){
         this.setState({
           count: this.state.count + 1
-        })
+        },()=>{console.log('Callback value is: ', this.state.count)})
         console.log(this.state.count)
     }
   render() {
