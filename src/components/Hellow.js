@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-export class Hellow extends Component {
+export class Hellow extends Component {  
     
-  render() {
+  render(props) {
     return (
       <div>
         <h1>

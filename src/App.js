@@ -1,10 +1,10 @@
 import './App.css'
-import Counter from './components/Counter'
+import FunctionClick from './components/FunctionClick'
 
 function App() {
   return (
     <div className="App">
-    <Counter />
+    <FunctionClick />
     </div>
   )
 }
