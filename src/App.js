@@ -1,10 +1,10 @@
 import './App.css'
-import FunctionClick from './components/FunctionClick'
+import EventBind from './components/EventBind'
 
 function App() {
   return (
     <div className="App">
-    <FunctionClick />
+    <EventBind />
     </div>
   )
 }
